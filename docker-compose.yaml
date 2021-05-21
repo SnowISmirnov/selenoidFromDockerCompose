@@ -20,7 +20,6 @@ services:
   selenoid-ui:
     image: "aerokube/selenoid-ui"
     privileged: true
-    user: root
     network_mode: bridge
     links:
       - selenoid
