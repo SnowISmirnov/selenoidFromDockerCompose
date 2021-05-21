@@ -7,7 +7,7 @@
         "image": "selenoid/vnc:chrome_87.0",
         "tmpfs": {"/tmp": "size=512m"},
         "hosts": ["x01.aidata.io:127.0.0.1"],
-        "port": "4444",
+        "port": "8080",
         "shmSize" : 768435456,
         "cpu" : "2.0",
         "mem" : "1024m"
@@ -17,7 +17,7 @@
         "image": "selenoid/vnc:chrome_86.0",
         "tmpfs": {"/tmp": "size=512m"},
         "hosts": ["x01.aidata.io:127.0.0.1"],
-        "port": "4444",
+        "port": "8080",
         "shmSize" : 768435456,
         "cpu" : "2.0",
         "mem" : "1024m"
