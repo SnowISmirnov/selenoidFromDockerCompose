@@ -56,18 +56,12 @@
     }
   },
   "MicrosoftEdge": {
-    "default": "93.0",
+    "default": "88.0",
     "versions": {
-      "93.0": {
-        "env" : ["LANG=en_EN.UTF-8", "LANGUAGE=en:en", "LC_ALL=en_US.UTF-8", "TZ=Europe/Stockholm"],
-        "image": "browsers/edge:93.0",
-        "tmpfs": {"/tmp": "size=512m"},
-        "hosts": ["x01.aidata.io:127.0.0.1"],
+      "88.0": {
+        "image": "browsers/edge:88.0",
         "port": "4444",
-        "path": "/",
-        "shmSize" : 768435456,
-        "cpu" : "2.0",
-        "mem" : "1024m"
+        "path": "/"
       }
     }
   },
