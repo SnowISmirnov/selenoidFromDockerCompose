@@ -12,9 +12,9 @@
         "cpu" : "2.0",
         "mem" : "1024m"
       },
-      "90.0": {
+      "87.0": {
         "env": ["LANG=en_EN.UTF-8", "LANGUAGE=en:en", "LC_ALL=en_US.UTF-8", "TZ=Europe/Stockholm"],
-        "image": "selenoid/vnc:chrome_90.0",
+        "image": "selenoid/vnc:chrome_87.0",
         "tmpfs": {"/tmp": "size=512m"},
         "hosts": ["x01.aidata.io:127.0.0.1"],
         "port": "4444",
