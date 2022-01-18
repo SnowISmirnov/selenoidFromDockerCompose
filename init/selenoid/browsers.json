@@ -5,10 +5,10 @@
       "97.0": {
         "env" : ["LANG=en_EN.UTF-8", "LANGUAGE=en:en", "LC_ALL=en_US.UTF-8", "TZ=Europe/Stockholm"],
         "image": "selenoid/vnc_chrome:97.0",
-        "tmpfs": {"/tmp": "size=1024m"},
+        "tmpfs": {"/tmp": "size=512m"},
         "hosts": ["x01.aidata.io:127.0.0.1"],
         "port": "4444",
-        "shmSize" : 1968435456,
+        "shmSize" : 968435456,
         "cpu" : "2.0",
         "mem" : "2028m"
       },
