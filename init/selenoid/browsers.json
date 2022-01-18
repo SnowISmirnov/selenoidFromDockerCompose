@@ -8,7 +8,7 @@
         "tmpfs": {"/tmp": "size=512m"},
         "hosts": ["x01.aidata.io:127.0.0.1"],
         "port": "4444",
-        "shmSize" : 968435456,
+        "shmSize" : 768435456,
         "cpu" : "2.0",
         "mem" : "2028m"
       },
