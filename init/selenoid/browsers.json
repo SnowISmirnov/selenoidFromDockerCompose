@@ -2,6 +2,16 @@
   "chrome": {
     "default": "97.0",
     "versions": {
+      "97.01": {
+        "env" : ["LANG=en_EN.UTF-8", "LANGUAGE=en:en", "LC_ALL=en_US.UTF-8", "TZ=Europe/Stockholm"],
+        "image": "selenoid/chrome:97.0",
+        "tmpfs": {"/tmp": "size=512m"},
+        "hosts": ["x01.aidata.io:127.0.0.1"],
+        "port": "4444",
+        "shmSize" : 768435456,
+        "cpu" : "2.0",
+        "mem" : "2028m"
+      },
       "97.0": {
         "env" : ["LANG=en_EN.UTF-8", "LANGUAGE=en:en", "LC_ALL=en_US.UTF-8", "TZ=Europe/Stockholm"],
         "image": "selenoid/vnc_chrome:97.0",
