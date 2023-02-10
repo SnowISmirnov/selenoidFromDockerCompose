@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   selenoid:
-    image: aerokube/selenoid:1.10.7
+    image: aerokube/selenoid:1.10.9
     privileged: true
     user: root
     volumes:
@@ -12,7 +12,7 @@ services:
       - "/var/run/docker.sock:/var/run/docker.sock"
     environment:
       - OVERRIDE_VIDEO_OUTPUT_DIR=work/selenoid/video
-    command: [ "-conf", "/etc/selenoid/browsers.json", "-video-output-dir", "/opt/selenoid/video", "-log-output-dir", "/opt/selenoid/logs", "-limit", "8", "-mem", "1g" ]
+    command: [ "-conf", "/etc/selenoid/browsers.json", "-video-output-dir", "/opt/selenoid/video", "-log-output-dir", "/opt/selenoid/logs", "-limit", "4", "-mem", "1g" ]
     ports:
       - "4444:4444"
     network_mode: bridge
