@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   selenoid:
-    image: aerokube/selenoid:1.10.10
+    image: aerokube/selenoid:1.11.1
     privileged: true
     user: root
     volumes:
